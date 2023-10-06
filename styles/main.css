@@ -4,7 +4,7 @@ body {
 }
 
 .baikal-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/images/baikal_background.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../images/baikal_background.jpg");
     box-shadow: 0 0 4px gray;
     text-shadow: black 0px 0px 4px;
     background-repeat: no-repeat;
