@@ -1,0 +1,77 @@
+body {
+    background-color: #dae0e6;
+    font-family: sans-serif;
+}
+
+.baikal-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/images/baikal_background.jpg");
+    box-shadow: 0 0 4px gray;
+    text-shadow: black 0px 0px 4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 35em;
+}
+
+[class^=col].baikal-content {
+    color: white;
+}
+
+[class^=col].baikal-content h1 {
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: 1em;
+    transition: all 0.5s;
+}
+
+[class^=col].baikal-content p {
+    font-size: 1em;
+    line-height: 2;
+}
+
+[class^=col].baikal-content a {
+    background: #5191fa;
+    text-shadow: none;
+    margin-top: 1em;
+    font-size: 1.5em;
+    padding: 16px 45px;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 800px) {
+    [class^=col].baikal-content {
+        text-align: center;
+    }
+
+    [class^=col].baikal-content h1 {
+        font-size: 3em;
+        margin-top: 2em;
+    }
+}
+
+.tour {
+    color: sandybrown;
+}
+
+.destinations {
+    margin: 1em;
+}
+
+[class^=col].destinations-content {
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+    border-radius: 4px;
+    margin: 1em;
+    transition: all 0.5s;
+}
+
+[class^=col].destinations-content:hover {
+    box-shadow: 0 0 16px gray;
+}
+
+.footer {
+    background-color: white;
+    box-shadow: 0 0 4px gray;
+    padding: 1em;
+}
